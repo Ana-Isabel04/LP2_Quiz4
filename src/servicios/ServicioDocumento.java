@@ -30,7 +30,8 @@ public class ServicioDocumento {
                     Documento documento = new Documento(textos[0], textos[1], textos[2], textos[3]);
                     documentos.add(documento);
                     linea = br.readLine();
-                }
+                }    ordenarRapido(0);
+
             } catch (Exception ex) {
 
             }
